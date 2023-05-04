@@ -7,7 +7,7 @@
                   
 					    <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="  <?php
 
-the_post_thumbnail_url('thumbnail');
+the_post_thumbnail_url('thumbnail  ');
   ?>" alt="image">
 					    <div class="media-body">
 						    <h3 class="title mb-1"><a href="post.html"><?php the_title(); ?></a></h3>
