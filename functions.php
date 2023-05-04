@@ -55,5 +55,4 @@ function followandrew_register_scripts()
     array(), '3.4.1', true );
 
 }
-
 add_action('wp_enqueue_scripts', 'followandrew_register_scripts');
