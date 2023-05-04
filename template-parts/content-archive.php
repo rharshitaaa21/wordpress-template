@@ -10,7 +10,7 @@
 the_post_thumbnail_url('thumbnail  ');
   ?>" alt="image">
 					    <div class="media-body">
-						    <h3 class="title mb-1"><a href="post.html"><?php the_title(); ?></a></h3>
+						    <h3 class="title mb-1"><a href="post.html"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 						    <div class="meta mb-1"><span class="date"><?php the_date(); ?></span><span class="time">5 min read</span>
                             <span class="comment"><a href="#">  <?php comments_number(); ?></a></span></div>
 						    <div class="intro"><?php

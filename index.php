@@ -12,11 +12,16 @@ get_header();
 			while(have_posts()){
 				the_post();
 				// the_content();
-                get_template_part('template-parts/content', 'archive');
+                get_template_part('template-parts/content','archive');
 			}
 		}
-
 		?>
+		<!-- <div>POST NAVIGATION</div> -->
+		<?php 
+		the_posts_pagination();
+
+
+?>
 	    </article>
 	  
 
